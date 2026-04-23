@@ -56,7 +56,7 @@ def create_pdf(df_to_print, user_details):
         pdf.ln(5)
 
         # Table Header
-        pdf.set_fill_color(40, 167, 69) # GitHub Green
+        pdf.set_fill_color(180, 140, 230) # GitHub Green
         pdf.set_text_color(255, 255, 255)
         pdf.set_font("Arial", 'B', 10)
         pdf.cell(110, 10, " College Name", 1, 0, 'L', True)
